@@ -1,0 +1,55 @@
+.back {
+  display: flex;
+  background-color: gray;
+}
+
+.content {
+  display: flex;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.locate-buscar {
+  display: inline;
+  justify-content: space-between;
+}
+
+.locate-img {
+  height: 100px;
+  border-radius: 50px;
+}
+
+.buscar {
+  height: 80px;
+  margin-left: 500px;
+  border-radius: 50px;
+}
+
+.clima-img {
+  height: 400px;
+}
+
+.humedad-viento {
+  display: inline;
+  justify-content: space-between;
+}
+
+.humedad {
+  height: 80px;
+}
+
+.viento {
+  height: 80px;
+  margin-left: 500px;
+  border-radius: 50px;
+}
+
+.texto-info {
+  display: inline;
+  justify-content: space-between;
+}
